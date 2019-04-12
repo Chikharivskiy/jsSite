@@ -1,0 +1,12 @@
+@keyframes move{
+    from{
+        opacity: 0;
+        transform: translateX(-15px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+.animationMove{
+    animation: move 0.8s ease;
+}
